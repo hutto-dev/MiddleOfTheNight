@@ -118,7 +118,7 @@ header {
   border-bottom: 2px solid var(--rule);
   animation: fadeUp 0.7s ease both;
   border-radius: 10px;
-  background-color: rgba(220, 214, 214, 0.4);
+  background-color: rgba(220, 214, 214, 0.5);
 }
 
 .h-eyebrow {
@@ -168,7 +168,7 @@ header h1 {
 .card {
   width: 100%;
    border-radius: 10px;
-  background-color: rgba(220, 214, 214, 0.4);
+  background-color: rgba(220, 214, 214, 0.5);
   padding: 22px 20px 20px;
   animation: fadeUp 0.65s ease both;
   position: relative;
@@ -275,10 +275,10 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 .sel-group select {
   background: var(--offwhite);
-  border: 1.5px solid rgba(144, 175, 104, 0.35);
+ 
   border-radius: 4px;
   color: var(--navy);
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.9rem;
   padding: 10px 36px 10px 14px;
   -webkit-appearance: none;
@@ -323,7 +323,7 @@ select option {
   border: none;
   border-radius: 4px;
   color: var(--white);
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -357,8 +357,8 @@ select option {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: var(--white);
-  border-radius: 4px;
+   border-radius: 10px;
+  background-color: rgba(220, 214, 214, 0.5);
   padding: 30px 22px 26px;
   border: 1.5px solid rgba(34, 70, 131, 0.1);
   box-shadow:
@@ -397,23 +397,23 @@ select option {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: var(--blue);
+  color: var(--white);
   margin-bottom: 10px;
   margin-top: 4px;
 }
 
 #bedtimeDisplay {
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: clamp(4.2rem, 19vw, 4rem);
-  color: var(--navy);
+  color: var(--yellow);
   line-height: 1;
   letter-spacing: -1px;
 }
 
 #ampmDisplay {
-  font-family: "Rye", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.6rem;
-  color: var(--salmon);
+  color: var(--yellow);
   margin-left: 5px;
 }
 
@@ -433,14 +433,14 @@ select option {
 #summaryText {
   font-size: 0.9rem;
   font-weight: 300;
-  color: var(--ink-soft);
+  color: var(--white);
   line-height: 1.8;
   letter-spacing: 0.3px;
 }
 
 #summaryText strong {
   font-weight: 700;
-  color: var(--navy);
+  color: var(--yellow);
 }
 
 /* ══════════════════════════════

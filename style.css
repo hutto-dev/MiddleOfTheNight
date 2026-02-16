@@ -7,6 +7,7 @@
 }
 
 :root {
+  --yellow: #ffde59;
   --salmon: #f37e6f;
   --blue: #0b82be;
   --orange: #f7964f;
@@ -26,8 +27,8 @@ body {
 
 body {
   min-height: 100vh;
-  background: var(--white);
-  font-family: "Josefin Sans", sans-serif;
+  background: url("./images/palm.jpg");
+  font-family: 'Times New Roman', Times, serif
   color: var(--ink);
   overflow-x: hidden;
 }
@@ -113,34 +114,36 @@ body {
 header {
   width: 100%;
   text-align: center;
-  padding-bottom: 22px;
+  padding: 20px 0;
   border-bottom: 2px solid var(--rule);
   animation: fadeUp 0.7s ease both;
+  border-radius: 10px;
+  background-color: rgba(220, 214, 214, 0.4);
 }
 
 .h-eyebrow {
-  font-size: 0.6rem;
-  font-weight: 700;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: var(--blue);
+  color: var(--white);
   margin-bottom: 10px;
 }
 
 header h1 {
-  font-family: "Alfa Slab One", serif;
-  font-size: clamp(2rem, 10vw, 1rem);
-  color: var(--navy);
-  line-height: 1.05;
-  letter-spacing: 0.5px;
+
+  font-size: clamp(2.5rem, 10vw, 1rem);
+  color: var(--yellow);
+  letter-spacing: 0.1px;
+  font-weight: 500;
 }
 
 .h-sub {
-  font-family: "Rye", serif;
+  
   font-size: 0.82rem;
-  color: var(--salmon);
+  color: var(--white);
+  text-transform: uppercase;
   margin-top: 7px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 /* five-dot ornament using accent colors */
@@ -164,13 +167,9 @@ header h1 {
     ══════════════════════════════ */
 .card {
   width: 100%;
-  background: var(--white);
-  border-radius: 4px;
+   border-radius: 10px;
+  background-color: rgba(220, 214, 214, 0.4);
   padding: 22px 20px 20px;
-  border: 1.5px solid rgba(34, 70, 131, 0.1);
-  box-shadow:
-    0 2px 12px rgba(34, 70, 131, 0.07),
-    0 1px 3px rgba(0, 0, 0, 0.05);
   animation: fadeUp 0.65s ease both;
   position: relative;
   overflow: hidden;
@@ -195,10 +194,10 @@ header h1 {
 }
 
 .card-wake::before {
-  background: var(--blue);
+  background: var(--yellow);
 }
 .card-sleep::before {
-  background: var(--green);
+  background: var(--yellow);
 }
 
 .card-label {
@@ -235,7 +234,8 @@ input[type="time"] {
   background: transparent;
   border: none;
   outline: none;
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
   font-size: 2.5rem;
   color: var(--navy);
   padding: 12px 16px;

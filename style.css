@@ -215,7 +215,8 @@ header h1 {
     ══════════════════════════════ */
 .time-field {
   width: 100%;
-  background: var(--offwhite);
+  border-radius: 10px;
+  background-color: rgba(220, 214, 214, 0.5);
   border: 1.5px solid rgba(11, 130, 190, 0.25);
   border-radius: 4px;
   display: flex;
@@ -245,7 +246,7 @@ input[type="time"] {
 }
 
 input[type="time"]::-webkit-calendar-picker-indicator {
-  opacity: 0.3;
+  opacity: 0.1;
   cursor: pointer;
 }
 

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Middle of the Night</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rye&family=Josefin+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Five-color top bar -->
+    <div class="colorbar">
+      <span style="background: var(--salmon)"></span>
+      <span style="background: var(--blue)"></span>
+      <span style="background: var(--orange)"></span>
+      <span style="background: var(--green)"></span>
+      <span style="background: var(--navy)"></span>
+    </div>
+
+    <!-- Palm silhouettes -->
+    <div class="palm-left">
+      <svg
+        width="170"
+        height="500"
+        viewBox="0 0 160 500"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M80 500 C76 445 70 390 74 338 C78 290 72 240 76 192 C79 152 74 112 80 74 C82 56 80 36 84 14"
+          stroke="#224683"
+          stroke-width="15"
+          stroke-linecap="round"
+        />
+        <path
+          d="M80 500 C78 445 74 392 78 340 C82 292 76 242 80 194"
+          stroke="#1a3560"
+          stroke-width="6"
+          stroke-linecap="round"
+          opacity="0.4"
+        />
+        <path d="M84 16 C55 0 16 -4 0 14 C22 10 52 24 68 44" fill="#224683" />
+        <path
+          d="M84 16 C48 6 20 38 18 64 C38 42 64 38 78 54"
+          fill="#224683"
+          opacity="0.85"
+        />
+        <path
+          d="M84 16 C58 -6 26 -8 10 10 C34 6 62 22 74 42"
+          fill="#224683"
+          opacity="0.9"
+        />
+        <path
+          d="M84 16 C114 2 150 -2 162 16 C140 12 110 26 96 46"
+          fill="#224683"
+        />
+        <path
+          d="M84 16 C120 8 148 40 150 66 C130 44 106 40 92 56"
+          fill="#224683"
+          opacity="0.85"
+        />
+        <path
+          d="M84 16 C58 30 24 68 18 98 C42 70 72 64 82 74"
+          fill="#224683"
+          opacity="0.75"
+        />
+        <path
+          d="M84 16 C112 32 144 70 148 102 C124 74 96 70 86 80"
+          fill="#224683"
+          opacity="0.75"
+        />
+        <circle cx="84" cy="28" r="7" fill="#1a2e58" />
+        <circle cx="94" cy="34" r="5" fill="#1a2e58" opacity="0.85" />
+      </svg>
+    </div>
+
+    <div class="palm-right">
+      <svg
+        width="170"
+        height="460"
+        viewBox="0 0 160 500"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M80 500 C76 445 70 390 74 338 C78 290 72 240 76 192 C79 152 74 112 80 74 C82 56 80 36 84 14"
+          stroke="#224683"
+          stroke-width="15"
+          stroke-linecap="round"
+        />
+        <path
+          d="M80 500 C78 445 74 392 78 340 C82 292 76 242 80 194"
+          stroke="#1a3560"
+          stroke-width="6"
+          stroke-linecap="round"
+          opacity="0.4"
+        />
+        <path d="M84 16 C55 0 16 -4 0 14 C22 10 52 24 68 44" fill="#224683" />
+        <path
+          d="M84 16 C48 6 20 38 18 64 C38 42 64 38 78 54"
+          fill="#224683"
+          opacity="0.85"
+        />
+        <path
+          d="M84 16 C58 -6 26 -8 10 10 C34 6 62 22 74 42"
+          fill="#224683"
+          opacity="0.9"
+        />
+        <path
+          d="M84 16 C114 2 150 -2 162 16 C140 12 110 26 96 46"
+          fill="#224683"
+        />
+        <path
+          d="M84 16 C120 8 148 40 150 66 C130 44 106 40 92 56"
+          fill="#224683"
+          opacity="0.85"
+        />
+        <path
+          d="M84 16 C58 30 24 68 18 98 C42 70 72 64 82 74"
+          fill="#224683"
+          opacity="0.75"
+        />
+        <path
+          d="M84 16 C112 32 144 70 148 102 C124 74 96 70 86 80"
+          fill="#224683"
+          opacity="0.75"
+        />
+        <circle cx="84" cy="28" r="7" fill="#1a2e58" />
+        <circle cx="94" cy="34" r="5" fill="#1a2e58" opacity="0.85" />
+      </svg>
+    </div>
+
+    <!-- ── App ─────────────────────────── -->
+    <div class="page">
+      <header>
+        <div class="h-eyebrow">boats · beaches · bars · ballads</div>
+        <h1>Middle of the Night</h1>
+        <div class="h-sub">Sleeping based on your sleep need</div>
+        <div class="h-dots">
+          <span style="background: var(--salmon)"></span>
+          <span style="background: var(--blue)"></span>
+          <span style="background: var(--orange)"></span>
+          <span style="background: var(--green)"></span>
+          <span style="background: var(--navy)"></span>
+        </div>
+      </header>
+
+      <!-- Wake time -->
+      <div class="card card-wake">
+        <div class="card-label">Wake Up</div>
+        <div class="time-field">
+          <input type="time" id="wakeTime" value="05:30" />
+        </div>
+      </div>
+
+      <div class="rule"></div>
+
+      <!-- Duration -->
+      <div class="card card-sleep">
+        <div class="card-label">Sleep Needed</div>
+        <div class="dur-row">
+          <div class="sel-group">
+            <label>Hours</label>
+            <select id="sleepHours">
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7" selected>7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          <div class="sel-group">
+            <label>Minutes</label>
+            <select id="sleepMins">
+              <option value="0">00</option>
+              <option value="15">15</option>
+              <option value="30">30</option>
+              <option value="45" selected>45</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <button id="calc">Calculate Bedtime</button>
+
+      <!-- Result -->
+      <div id="result">
+        <div class="result-label">Lights Out By</div>
+        <div>
+          <span id="bedtimeDisplay"></span><span id="ampmDisplay"></span>
+        </div>
+        <div class="result-rule">
+          <span style="background: var(--salmon)"></span>
+          <span style="background: var(--blue)"></span>
+          <span style="background: var(--orange)"></span>
+          <span style="background: var(--green)"></span>
+          <span style="background: var(--navy)"></span>
+        </div>
+        <div id="summaryText"></div>
+      </div>
+
+      <footer>
+        wind down a half hour before &mdash; no screens, just the ceiling fan
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
